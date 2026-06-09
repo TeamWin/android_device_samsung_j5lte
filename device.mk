@@ -5,6 +5,3 @@ $(call inherit-product-if-exists, vendor/samsung/j5lte/j5lte-vendor.mk)
 $(call inherit-product, device/samsung/j5-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/j5lte
-
-# Common overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
